@@ -1,20 +1,22 @@
+/* Сбрасываем отступы и делаем фон на весь экран */
 html, body {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
+/* Основной фон */
 body {
-  background-image: url('img/BG.jpg');   /* Изображение */
-  background-size: cover;                    /* Растягиваем на весь экран */
-  background-position: center;               /* Центрирует картинку */
-  background-repeat: no-repeat;              /* Без повторов */
-  background-attachment: fixed;              /* Фон не двигается при скролле */
+  background-image: url('img/BG.jpg');
+  background-size: cover;       /* растягивает изображение на весь экран */
+  background-position: center;  /* центрирует картинку */
+  background-repeat: no-repeat; /* без повторов */
+  background-attachment: fixed; /* фон не двигается при скролле */
   display: flex;
-  justify-content: center;                   /* Центрируем контент по горизонтали */
-  align-items: center;                       /* Центрируем по вертикали */
-  color: white;                              /* Текст белый на фоне */
-  text-shadow: 0 0 5px black;                /* Чуть тень для читаемости */
+  justify-content: center;      /* центрируем контент по горизонтали */
+  align-items: center;          /* центрируем по вертикали */
+  color: white;                 /* текст белый на фоне */
+  text-shadow: 0 0 5px black;  /* чуть тень для читаемости */
 }
 
 h1 {
