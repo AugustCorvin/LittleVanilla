@@ -9,21 +9,27 @@ body {
 }
 
 .center-text {
-    font-size: 32px;
-    color: white;
+  font-size: 32px;
+  color: white;
 }
 
+/* Верхнее меню */
 .top-menu {
-    width: 100%;
-    background: #6f6f6f;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+  width: 100%;
+  background: #202020;
+  padding: 30px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .top-menu a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
