@@ -7,7 +7,7 @@ html, body {
 
 /* Основной фон */
 body {
-  background-image: url('img/BG.jpg');
+  background-image: url('img/Background.jpeg');
   background-size: cover;       /* растягивает изображение на весь экран */
   background-position: center;  /* центрирует картинку */
   background-repeat: no-repeat; /* без повторов */
