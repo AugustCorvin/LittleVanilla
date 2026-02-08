@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url('img/BG.jpg');   /* Изображение */
+  background-size: cover;                    /* Растягиваем на весь экран */
+  background-position: center;               /* Центрирует картинку */
+  background-repeat: no-repeat;              /* Без повторов */
+  background-attachment: fixed;              /* Фон не двигается при скролле */
+  display: flex;
+  justify-content: center;                   /* Центрируем контент по горизонтали */
+  align-items: center;                       /* Центрируем по вертикали */
+  color: white;                              /* Текст белый на фоне */
+  text-shadow: 0 0 5px black;                /* Чуть тень для читаемости */
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 24px;
+}
+
+/* Прозрачная кнопка */
+.btn {
+  background-color: rgba(0,0,0,0.5);
+  padding: 12px 24px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: rgba(0,0,0,0.7);
+}
